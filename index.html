@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Traffic light</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <h1>Traffic Light Simulator</h1>
+  <div class="simulator">
+<div class="container1">
+<p class="countdown">0:00</p>
+ Red Light: <input class = "in1" type="number"><br>
+Green Light:  <input class="in2" type="number"><br>
+<button class="action" onclick="startTheShow()">Start</button>
+</div>
+  <div class="traffic-light">
+     <div class="light red"></div> 
+     <div class="light yellow"></div>
+     <div class="light green"></div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

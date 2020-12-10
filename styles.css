@@ -1,0 +1,102 @@
+body{
+    background-color: #6a197d;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    color:#f1d4d4 ;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.simulator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    margin: 0 15% 0;
+    padding-bottom: 100px;
+    text-align: center;
+}
+h1{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #f1d4d4;
+    text-shadow: 3px 3px #DA0463;
+    margin-top: 5%;
+    font-size: 4rem;
+}
+.traffic-light{
+    margin: 5% 10% 10%;
+    height: 300px;
+    width: 90px;
+    background-color: white;
+    border-radius: 100px;
+    border: 20px solid #6a197d; 
+    box-shadow: 0 0 3px #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+
+}
+.light{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+p{
+    text-align: center;
+    font-size: 5rem;
+    color: #f1d4d4;
+    margin: 0 auto 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.light.red{
+    background-color: #fd3a69;
+    box-shadow: 0 0 14px 2px #fd3a69;
+}
+.light.yellow{
+    background-color: #ffc85c;
+    box-shadow: 0 0 14px 2px #ffc85c;
+}
+.light.green{
+    background-color: #5aa469;
+    box-shadow: 0 0 14px 2px #5aa469;
+}
+input{
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+    padding: 15px;
+    font-size: 1.5rem; 
+    text-align: center;
+    margin: 20px;
+}
+.var-input{
+    text-align: center;
+    font-size: 1rem;
+    color: #f1d4d4;
+    margin: 0 auto 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.in1{
+    margin-left: 40px;
+}
+.action{
+    width: 430px;
+    height: 70px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin: 3%;
+    position: relative;
+    background-color: #6a197d;
+    color: seashell;
+    font-size: 2rem;
+}
+.action:hover{
+    box-shadow: 0 0 14px 2px #b05bc4;
+}
