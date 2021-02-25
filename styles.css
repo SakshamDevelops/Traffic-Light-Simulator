@@ -67,6 +67,7 @@ p{
     box-shadow: 0 0 14px 2px #5aa469;
 }
 input{
+    outline: none;
     border-radius: 50px;
     border: none;
     height: 40px;
@@ -87,6 +88,7 @@ input{
     margin-left: 40px;
 }
 .action{
+    outline: none;
     width: 430px;
     height: 70px;
     border-radius: 50px;
